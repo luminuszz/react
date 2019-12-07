@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { WSAEDESTADDRREQ } from 'constants';
 import './style.css';
-class Header extends Component {
+const Header = () => (
+    <header id="main_header">Hello</header>
 
-    render() {
-        return <header id="header_main">Davi</header>
-    }
-
-}
+);
 
 export default Header;
+
+
+
+
+
